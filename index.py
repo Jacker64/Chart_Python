@@ -29,9 +29,7 @@ for bar in bars:
              va='bottom',
              fontsize=10)
 
-# Giới hạn trục tung để tạo khoảng trống phía trên
 plt.ylim(0, max(diem) + 2)
 
-# Hiển thị biểu đồ
 plt.tight_layout()
 plt.show()
